@@ -1,3 +1,12 @@
+css-changes
+.high-contrast {
+    color: #000; /* black text */
+}
+
+.high-contrast:hover {
+    color: #fff; /* white hover */
+}
+=======
 body{
 
 	margin:0;
@@ -139,3 +148,4 @@ span[cartoon]:hover{
 	left:140px;
 
 }
+
