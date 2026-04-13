@@ -1,3 +1,12 @@
+css-changes
+.high-contrast {
+    color: #000; /* black text */
+}
+
+.high-contrast:hover {
+    color: #fff; /* white hover */
+}
+=======
 body{
 
 	margin:0;
@@ -15,12 +24,14 @@ body{
 
 }
 
-a{
-	color: #999;
+
+/**a{
+	color: #999999;
 }
 a:hover{
-	color: #ddd;
+	color: #dddddd;
 }
+**/
 
 #intro_container, #outro_container{
 	width:100%; height:550px;
@@ -108,11 +119,11 @@ span[cartoon]:hover{
 
 }
 #cartoon_arrow{
-	
+
 	display: block;
 
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-bottom: 20px solid #fff;
@@ -123,11 +134,11 @@ span[cartoon]:hover{
 
 }
 #cartoon_arrow[flipped=true]{
-	
+
 	display: block;
 
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-bottom: 20px solid #fff;
@@ -137,3 +148,4 @@ span[cartoon]:hover{
 	left:140px;
 
 }
+
